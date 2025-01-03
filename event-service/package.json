@@ -1,0 +1,34 @@
+{
+  "name": "event-service",
+  "version": "1.0.0",
+  "description": "This is event-service microservice for eventia",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs",
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dbs-mnnit/eventia.git"
+  },
+  "keywords": [
+    "Event",
+    "Service",
+    "Eventia",
+    "Microservice"
+  ],
+  "author": "Digvijay Bahadur Singh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dbs-mnnit/eventia/issues"
+  },
+  "homepage": "https://github.com/dbs-mnnit/eventia#readme",
+  "dependencies": {
+    "express": "^4.21.2",
+    "nodemon": "^3.1.9"
+  }
+}

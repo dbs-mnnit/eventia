@@ -1,0 +1,7 @@
+/node_modules/
+.env
+/docker-compose.yml
+*.log
+coverage/
+.DS_Store
+npm-debug.log
